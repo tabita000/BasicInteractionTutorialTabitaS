@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22DEBA522B68261500509043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA512B68261500509043 /* AppDelegate.swift */; };
+		22DEBA542B68261500509043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA532B68261500509043 /* SceneDelegate.swift */; };
+		22DEBA562B68261500509043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA552B68261500509043 /* ViewController.swift */; };
+		22DEBA592B68261500509043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DEBA572B68261500509043 /* Main.storyboard */; };
+		22DEBA5B2B68261600509043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DEBA5A2B68261600509043 /* Assets.xcassets */; };
+		22DEBA5E2B68261600509043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DEBA5C2B68261600509043 /* LaunchScreen.storyboard */; };
+		22DEBA692B68261600509043 /* BasicInteractionTutorialTabitaSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA682B68261600509043 /* BasicInteractionTutorialTabitaSTests.swift */; };
+		22DEBA732B68261600509043 /* BasicInteractionTutorialTabitaSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA722B68261600509043 /* BasicInteractionTutorialTabitaSUITests.swift */; };
+		22DEBA752B68261600509043 /* BasicInteractionTutorialTabitaSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEBA742B68261600509043 /* BasicInteractionTutorialTabitaSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22DEBA652B68261600509043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DEBA462B68261500509043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DEBA4D2B68261500509043;
+			remoteInfo = BasicInteractionTutorialTabitaS;
+		};
+		22DEBA6F2B68261600509043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DEBA462B68261500509043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DEBA4D2B68261500509043;
+			remoteInfo = BasicInteractionTutorialTabitaS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22DEBA4E2B68261500509043 /* BasicInteractionTutorialTabitaS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicInteractionTutorialTabitaS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DEBA512B68261500509043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22DEBA532B68261500509043 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22DEBA552B68261500509043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22DEBA582B68261500509043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22DEBA5A2B68261600509043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22DEBA5D2B68261600509043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22DEBA5F2B68261600509043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DEBA642B68261600509043 /* BasicInteractionTutorialTabitaSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicInteractionTutorialTabitaSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DEBA682B68261600509043 /* BasicInteractionTutorialTabitaSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInteractionTutorialTabitaSTests.swift; sourceTree = "<group>"; };
+		22DEBA6E2B68261600509043 /* BasicInteractionTutorialTabitaSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicInteractionTutorialTabitaSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DEBA722B68261600509043 /* BasicInteractionTutorialTabitaSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInteractionTutorialTabitaSUITests.swift; sourceTree = "<group>"; };
+		22DEBA742B68261600509043 /* BasicInteractionTutorialTabitaSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInteractionTutorialTabitaSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DEBA4B2B68261500509043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA612B68261600509043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA6B2B68261600509043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DEBA452B68261500509043 = {
+			isa = PBXGroup;
+			children = (
+				22DEBA502B68261500509043 /* BasicInteractionTutorialTabitaS */,
+				22DEBA672B68261600509043 /* BasicInteractionTutorialTabitaSTests */,
+				22DEBA712B68261600509043 /* BasicInteractionTutorialTabitaSUITests */,
+				22DEBA4F2B68261500509043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22DEBA4F2B68261500509043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22DEBA4E2B68261500509043 /* BasicInteractionTutorialTabitaS.app */,
+				22DEBA642B68261600509043 /* BasicInteractionTutorialTabitaSTests.xctest */,
+				22DEBA6E2B68261600509043 /* BasicInteractionTutorialTabitaSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DEBA502B68261500509043 /* BasicInteractionTutorialTabitaS */ = {
+			isa = PBXGroup;
+			children = (
+				22DEBA512B68261500509043 /* AppDelegate.swift */,
+				22DEBA532B68261500509043 /* SceneDelegate.swift */,
+				22DEBA552B68261500509043 /* ViewController.swift */,
+				22DEBA572B68261500509043 /* Main.storyboard */,
+				22DEBA5A2B68261600509043 /* Assets.xcassets */,
+				22DEBA5C2B68261600509043 /* LaunchScreen.storyboard */,
+				22DEBA5F2B68261600509043 /* Info.plist */,
+			);
+			path = BasicInteractionTutorialTabitaS;
+			sourceTree = "<group>";
+		};
+		22DEBA672B68261600509043 /* BasicInteractionTutorialTabitaSTests */ = {
+			isa = PBXGroup;
+			children = (
+				22DEBA682B68261600509043 /* BasicInteractionTutorialTabitaSTests.swift */,
+			);
+			path = BasicInteractionTutorialTabitaSTests;
+			sourceTree = "<group>";
+		};
+		22DEBA712B68261600509043 /* BasicInteractionTutorialTabitaSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22DEBA722B68261600509043 /* BasicInteractionTutorialTabitaSUITests.swift */,
+				22DEBA742B68261600509043 /* BasicInteractionTutorialTabitaSUITestsLaunchTests.swift */,
+			);
+			path = BasicInteractionTutorialTabitaSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22DEBA4D2B68261500509043 /* BasicInteractionTutorialTabitaS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DEBA782B68261600509043 /* Build configuration list for PBXNativeTarget "BasicInteractionTutorialTabitaS" */;
+			buildPhases = (
+				22DEBA4A2B68261500509043 /* Sources */,
+				22DEBA4B2B68261500509043 /* Frameworks */,
+				22DEBA4C2B68261500509043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicInteractionTutorialTabitaS;
+			productName = BasicInteractionTutorialTabitaS;
+			productReference = 22DEBA4E2B68261500509043 /* BasicInteractionTutorialTabitaS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22DEBA632B68261600509043 /* BasicInteractionTutorialTabitaSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DEBA7B2B68261600509043 /* Build configuration list for PBXNativeTarget "BasicInteractionTutorialTabitaSTests" */;
+			buildPhases = (
+				22DEBA602B68261600509043 /* Sources */,
+				22DEBA612B68261600509043 /* Frameworks */,
+				22DEBA622B68261600509043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DEBA662B68261600509043 /* PBXTargetDependency */,
+			);
+			name = BasicInteractionTutorialTabitaSTests;
+			productName = BasicInteractionTutorialTabitaSTests;
+			productReference = 22DEBA642B68261600509043 /* BasicInteractionTutorialTabitaSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22DEBA6D2B68261600509043 /* BasicInteractionTutorialTabitaSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DEBA7E2B68261600509043 /* Build configuration list for PBXNativeTarget "BasicInteractionTutorialTabitaSUITests" */;
+			buildPhases = (
+				22DEBA6A2B68261600509043 /* Sources */,
+				22DEBA6B2B68261600509043 /* Frameworks */,
+				22DEBA6C2B68261600509043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DEBA702B68261600509043 /* PBXTargetDependency */,
+			);
+			name = BasicInteractionTutorialTabitaSUITests;
+			productName = BasicInteractionTutorialTabitaSUITests;
+			productReference = 22DEBA6E2B68261600509043 /* BasicInteractionTutorialTabitaSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22DEBA462B68261500509043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					22DEBA4D2B68261500509043 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					22DEBA632B68261600509043 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22DEBA4D2B68261500509043;
+					};
+					22DEBA6D2B68261600509043 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22DEBA4D2B68261500509043;
+					};
+				};
+			};
+			buildConfigurationList = 22DEBA492B68261500509043 /* Build configuration list for PBXProject "BasicInteractionTutorialTabitaS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22DEBA452B68261500509043;
+			productRefGroup = 22DEBA4F2B68261500509043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DEBA4D2B68261500509043 /* BasicInteractionTutorialTabitaS */,
+				22DEBA632B68261600509043 /* BasicInteractionTutorialTabitaSTests */,
+				22DEBA6D2B68261600509043 /* BasicInteractionTutorialTabitaSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DEBA4C2B68261500509043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DEBA5E2B68261600509043 /* LaunchScreen.storyboard in Resources */,
+				22DEBA5B2B68261600509043 /* Assets.xcassets in Resources */,
+				22DEBA592B68261500509043 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA622B68261600509043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA6C2B68261600509043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22DEBA4A2B68261500509043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DEBA562B68261500509043 /* ViewController.swift in Sources */,
+				22DEBA522B68261500509043 /* AppDelegate.swift in Sources */,
+				22DEBA542B68261500509043 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA602B68261600509043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DEBA692B68261600509043 /* BasicInteractionTutorialTabitaSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DEBA6A2B68261600509043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DEBA732B68261600509043 /* BasicInteractionTutorialTabitaSUITests.swift in Sources */,
+				22DEBA752B68261600509043 /* BasicInteractionTutorialTabitaSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22DEBA662B68261600509043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DEBA4D2B68261500509043 /* BasicInteractionTutorialTabitaS */;
+			targetProxy = 22DEBA652B68261600509043 /* PBXContainerItemProxy */;
+		};
+		22DEBA702B68261600509043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DEBA4D2B68261500509043 /* BasicInteractionTutorialTabitaS */;
+			targetProxy = 22DEBA6F2B68261600509043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22DEBA572B68261500509043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DEBA582B68261500509043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22DEBA5C2B68261600509043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DEBA5D2B68261600509043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22DEBA762B68261600509043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22DEBA772B68261600509043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22DEBA792B68261600509043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BasicInteractionTutorialTabitaS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.BasicInteractionTutorialTabitaS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22DEBA7A2B68261600509043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BasicInteractionTutorialTabitaS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.BasicInteractionTutorialTabitaS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22DEBA7C2B68261600509043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.BasicInteractionTutorialTabitaSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicInteractionTutorialTabitaS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BasicInteractionTutorialTabitaS";
+			};
+			name = Debug;
+		};
+		22DEBA7D2B68261600509043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.BasicInteractionTutorialTabitaSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicInteractionTutorialTabitaS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BasicInteractionTutorialTabitaS";
+			};
+			name = Release;
+		};
+		22DEBA7F2B68261600509043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.BasicInteractionTutorialTabitaSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BasicInteractionTutorialTabitaS;
+			};
+			name = Debug;
+		};
+		22DEBA802B68261600509043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.BasicInteractionTutorialTabitaSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BasicInteractionTutorialTabitaS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22DEBA492B68261500509043 /* Build configuration list for PBXProject "BasicInteractionTutorialTabitaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DEBA762B68261600509043 /* Debug */,
+				22DEBA772B68261600509043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DEBA782B68261600509043 /* Build configuration list for PBXNativeTarget "BasicInteractionTutorialTabitaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DEBA792B68261600509043 /* Debug */,
+				22DEBA7A2B68261600509043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DEBA7B2B68261600509043 /* Build configuration list for PBXNativeTarget "BasicInteractionTutorialTabitaSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DEBA7C2B68261600509043 /* Debug */,
+				22DEBA7D2B68261600509043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DEBA7E2B68261600509043 /* Build configuration list for PBXNativeTarget "BasicInteractionTutorialTabitaSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DEBA7F2B68261600509043 /* Debug */,
+				22DEBA802B68261600509043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22DEBA462B68261500509043 /* Project object */;
+}
